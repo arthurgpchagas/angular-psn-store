@@ -1,27 +1,59 @@
-# Store
+# PSN Web Clone 🎮
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+This project is a simplified replica of the PlayStation Store (PSN) interface, built using Angular. It was developed for study and frontend practice purposes.
 
-## Development server
+## 🔧 Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular** 14.1.2
+- **TypeScript**
+- **HTML / SCSS**
 
-## Code scaffolding
+## 🚀 How to Run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have **Node.js** and **Angular CLI** installed.
 
-## Build
+```bash
+# Install dependencies
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Run development server
+ng serve
 
-## Running unit tests
+Then, open your browser and navigate to:
+👉 http://localhost:4200
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The app supports hot reload: it will refresh automatically when you change any source files.
 
-## Running end-to-end tests
+## 📁 Project Structure
+ruby
+Copiar
+Editar
+src/
+├── app/
+│   ├── components/        # Angular components
+│   ├── services/          # Shared services
+│   └── app.module.ts      # App module declaration
+├── assets/                # Static assets (images, icons, etc.)
+└── index.html             # Main HTML file
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🧪 Testing
+You can run unit tests with:
 
-## Further help
+bash
+Copiar
+Editar
+ng test
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📦 Build
+To build the project for production:
+
+bash
+Copiar
+Editar
+ng build
+The output will be placed in the dist/ folder.
+
+📌 Note: This project was inspired by the PlayStation Store interface and is intended for learning and non-commercial purposes only.
+
+Feel free to fork, contribute, or adapt this project to your own needs!
+✨ Made with passion for frontend development.
