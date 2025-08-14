@@ -1,14 +1,14 @@
-# PSN Web Clone 🎮
+# PSN Web Clone
 
 This project is a simplified replica of the PlayStation Store (PSN) interface, built using Angular. It was developed for study and frontend practice purposes.
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Angular** 14.1.2
 - **TypeScript**
 - **HTML / SCSS**
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have **Node.js** and **Angular CLI** installed.
 
@@ -21,12 +21,11 @@ npm install
 ng serve
 ```
 
-Then, open your browser and navigate to:
-👉 http://localhost:4200
+Then, open your browser and navigate to: http://localhost:4200
 
 The app supports hot reload: it will refresh automatically when you change any source files.
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 ruby
@@ -41,13 +40,13 @@ src/
 └── index.html             # Main HTML file
 ```
 
-## 🧪 Testing
+## Testing
 You can run unit tests with:
 ```bash
 ng test
 ```
 
-## 📦 Build
+## Build
 To build the project for production:
 
 ```bash
@@ -56,7 +55,4 @@ ng build
 
 The output will be placed in the dist/ folder.
 
-📌 Note: This project was inspired by the PlayStation Store interface and is intended for learning and non-commercial purposes only.
-
-Feel free to fork, contribute, or adapt this project to your own needs!
-✨ Made with passion for frontend development.
+Note: This project was inspired by the PlayStation Store interface and is intended for learning and non-commercial purposes only.
